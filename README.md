@@ -18,4 +18,8 @@ Evaluación de modelos de riesgo (Regresión logistica y Random forest)
 
 Obtuvimos las siguientes conclusiones generales:
 
-Para esta población encontramos que los segmentos de malos y buenos tienen como caracteristcas principales el tipo de producto, teneiendo también entre su principal ditintivo para clasificar los clientes malos la varibale `checking_acc_status_no_checking_acc`.
+- Se encontraron 2 segmentos característicos en el dataset
+- Estos segmentos se diferencian principalmente en el tipo de producto que adquirieron.
+- Se encontró que los créditos cortos y de menor costo tienen una menor tasa de malos que los créditos largos y de mayor costo.
+- Una de las principales características para clasificar a los clientes malos es la variable `checking_acc_status_no_checking_acc`.
+- El modelo de regresión logística tuvo el mejor desempeño distinguiendo los clientes ‘buenos’ de los clientes ‘malos’ con AUC = 0.807.
